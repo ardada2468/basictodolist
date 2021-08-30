@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  background-color: cornflowerblue;
+  border-radius: 30px;
+  padding: 30px;
+  align-self: center;
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.Button{
+  display: inline;
+  float: right;
+  max-height: 25px;
+  max-width: 25px;
+}
+.ItemName{
+  display:inline;
+  padding: 10px;
+}
+
+.TextInput{
+  border-radius: 20px;
+  border-color: green;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.TextInput:active{
+  border-color: chartreuse;
+  border-radius: inherit;
+}
